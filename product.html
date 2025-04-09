@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Product Page</title>
+    <link rel="stylesheet" href="product.css" />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-container">
+        <div class="brand">
+          <img src="/images/brand.png" alt="Brand image" />
+          <a class="brand-name" href="#home">Furnio</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="link-icons">
+          <a href="">
+            <ion-icon class="nav-icon" name="person-outline"></ion-icon
+          ></a>
+          <a href="">
+            <ion-icon class="nav-icon" name="search-outline"></ion-icon
+          ></a>
+          <a href="">
+            <ion-icon class="nav-icon" name="heart-outline"></ion-icon
+          ></a>
+          <a href="">
+            <ion-icon class="nav-icon" name="cart-outline"></ion-icon
+          ></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="breadcrumbs">
+        <div class="container">
+          <p>Home > Shop > | <span> Product Name</span></p>
+        </div>
+      </section>
+      <section class="product-details">
+        <div class="container">
+          <div class="product-image-container">
+            <div class="main-image">
+              <img src="/images/main-sofa.png" alt="Product Image" />
+            </div>
+            <div class="cart-images">
+              <img src="/images/cart-sofa-1.png" alt="" />
+              <img src="/images/cart-sofa-2.png" alt="" />
+              <img src="/images/cart-sofa-3.png" alt="" />
+              <img src="/images/cart-sofa-4.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="product-info">
+          <h2 class="product-title">Asgaard sofa</h2>
+          <p class="product-price">Rs. 250,000.00</p>
+          <div class="rating-area">
+            <div class="stars-area">
+              <ion-icon class="icon" name="star"></ion-icon>
+              <ion-icon class="icon" name="star"></ion-icon>
+              <ion-icon class="icon" name="star"></ion-icon>
+              <ion-icon class="icon" name="star"></ion-icon>
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M7.1563 7.0125L0.800049 7.9375L5.40005 12.4188L4.31255 18.75L10 15.7625V1.25L7.1563 7.0125Z"
+                  fill="#FFC700"
+                />
+              </svg>
+            </div>
+            <span style="font-size: 1.8rem">|</span>
+            <p class="user-review">5 Customer Review</p>
+          </div>
+          <p class="description">
+            Setting the bar as one of the loudest speakers in its class, the
+            Kilburn is a compact, stout-hearted hero with a well-balanced audio
+            which boasts a clear midrange and extended highs for a sound.
+          </p>
+          <p class="subtitle">Size</p>
+          <div class="btns-area">
+            <button class="size-btn">L</button>
+            <button class="size-btn">XL</button>
+            <button class="size-btn">Xs</button>
+          </div>
+          <p class="subtitle">Color</p>
+          <div class="btns-area">
+            <button style="background: #816dfa" class="color-btn"></button>
+            <button style="background: black" class="color-btn"></button>
+            <button style="background: #b88e2f" class="color-btn"></button>
+          </div>
+          <div class="btns-area">
+            <div class="count-btn"
+              <span>+</span>
+              <span>1</span>
+              <span>-</span>
+          </div>
+            <button class="btn">Add To Cart</button>
+            <button class="btn">+ Comphere</button>
+          </div>
+          <hr />
+          <div class="summery description">
+           <p>SKU       : SS001</p>
+           <p>Category  : Sofas</p>
+           <p>Tags      : Sofa, Chair, Home, Shop</p>
+           <p>Share     : Facebook, Linkdin, Tweeter</p>
+
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- Description Section Start -->
+      <section class="description">
+        <div class="tabs">
+          <h2 style="color: black" class="tabs-title">Description</h2>
+          <h2 class="tabs-title">Additional Information</h2>
+          <h2 class="tabs-title">Review [5]</h2>
+        </div>
+        <div class="content">
+          <p>
+            Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn
+            portable active stereo speaker takes the unmistakable look and sound
+            of Marshall, unplugs the chords, and takes the show on the road.
+          </p>
+          <br />
+          <p>
+            Weighing in under 7 pounds, the Kilburn is a lightweight piece of
+            vintage styled engineering. Setting the bar as one of the loudest
+            speakers in its class, the Kilburn is a compact, stout-hearted hero
+            with a well-balanced audio which boasts a clear midrange and
+            extended highs for a sound that is both articulate and pronounced.
+            The analogue knobs allow you to fine tune the controls to your
+            personal preferences while the guitar-influenced leather strap
+            enables easy and stylish travel.
+          </p>
+        </div>
+        <div class="photo-container">
+          <img src="/images/sofa-set.png" alt="Sofa Set" />
+          <img src="/images/sofa-set.png" alt="Sofa Set" />
+        </div>
+        <hr />
+      </section>
+      <!-- Description Section End -->
+      <!-- Related Product Section Start -->
+      <section class="related-products">
+        <h2 class="related-title">Related Products</h2>
+        <div class="products-gallery">
+         <!-- card design -->
+         <div class="card-container">
+            <!-- Card Image -->
+            <img class="card-image" src="/images/Images (1).png" alt="Stylish cafe chair">
+          
+            <!-- Overlay Section -->
+            <div class="discount">
+              <p class="discount-text">-30%</p>
+             </div>
+            <div class="card-overlay">
+              <button class="add-to-cart-btn">Add to cart</button>
+              <div class="other-btn">
+                <a href="#" class="share-btn">
+                  Share
+                  <ion-icon class="card-icon" name="share-outline"></ion-icon>
+                </a>
+                <a href="#" class="compare-btn">
+                  Compare
+                  <ion-icon class="card-icon" name="git-compare-outline"></ion-icon>
+                </a>
+                <a href="#" class="like-btn">
+                  Like
+                  <ion-icon class="card-icon" name="heart-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+          
+            <!-- Card Content -->
+            <div class="card-content">
+              <h3 class="card-title">Dining Table</h3>
+              <p class="card-description">Stylish cafe chair</p>
+              <div class="product-prices">
+                <p class="sale-price">Rp 2.500.000</p>
+                <del class="product-price">Rp 3.500.000</del>
+              </div>
+            </div>
+          </div>
+          <!-- card design end -->
+         <!-- card design -->
+         <div class="card-container">
+            <!-- Card Image -->
+            <img class="card-image" src="/images/Images (1).png" alt="Stylish cafe chair">
+          
+            <!-- Overlay Section -->
+            <div class="card-overlay">
+              <button class="add-to-cart-btn">Add to cart</button>
+              <div class="other-btn">
+                <a href="#" class="share-btn">
+                  Share
+                  <ion-icon class="card-icon" name="share-outline"></ion-icon>
+                </a>
+                <a href="#" class="compare-btn">
+                  Compare
+                  <ion-icon class="card-icon" name="git-compare-outline"></ion-icon>
+                </a>
+                <a href="#" class="like-btn">
+                  Like
+                  <ion-icon class="card-icon" name="heart-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+          
+            <!-- Card Content -->
+            <div class="card-content">
+              <h3 class="card-title">Dining Table</h3>
+              <p class="card-description">Stylish cafe chair</p>
+              <div class="product-prices">
+                <p class="sale-price">Rp 2.500.000</p>
+                <del class="product-price">Rp 3.500.000</del>
+              </div>
+            </div>
+          </div>
+          <!-- card design end -->
+         <!-- card design -->
+         <div class="card-container">
+            <!-- Card Image -->
+            <img class="card-image" src="/images/Images (1).png" alt="Stylish cafe chair">
+          
+            <!-- Overlay Section -->
+            <div class="discount">
+              <p class="discount-text">-50%</p>
+             </div>
+            <div class="card-overlay">
+              <button class="add-to-cart-btn">Add to cart</button>
+              <div class="other-btn">
+                <a href="#" class="share-btn">
+                  Share
+                  <ion-icon class="card-icon" name="share-outline"></ion-icon>
+                </a>
+                <a href="#" class="compare-btn">
+                  Compare
+                  <ion-icon class="card-icon" name="git-compare-outline"></ion-icon>
+                </a>
+                <a href="#" class="like-btn">
+                  Like
+                  <ion-icon class="card-icon" name="heart-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+          
+            <!-- Card Content -->
+            <div class="card-content">
+              <h3 class="card-title">Dining Table</h3>
+              <p class="card-description">Stylish cafe chair</p>
+              <div class="product-prices">
+                <p class="sale-price">Rp 2.500.000</p>
+                <del class="product-price">Rp 3.500.000</del>
+              </div>
+            </div>
+          </div>
+          <!-- card design end -->
+         <!-- card design -->
+         <div class="card-container">
+            <!-- Card Image -->
+            <img class="card-image" src="/images/Images (1).png" alt="Stylish cafe chair">
+          
+            <!-- Overlay Section -->
+            <div class="discount">
+              <p style="background: #2EC1AC;" class="discount-text">New</p>
+             </div>
+            <div class="card-overlay">
+              <button class="add-to-cart-btn">Add to cart</button>
+              <div class="other-btn">
+                <a href="#" class="share-btn">
+                  Share
+                  <ion-icon class="card-icon" name="share-outline"></ion-icon>
+                </a>
+                <a href="#" class="compare-btn">
+                  Compare
+                  <ion-icon class="card-icon" name="git-compare-outline"></ion-icon>
+                </a>
+                <a href="#" class="like-btn">
+                  Like
+                  <ion-icon class="card-icon" name="heart-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+          
+            <!-- Card Content -->
+            <div class="card-content">
+              <h3 class="card-title">Dining Table</h3>
+              <p class="card-description">Stylish cafe chair</p>
+              <div class="product-prices">
+                <p class="sale-price">Rp 2.500.000</p>
+                <del class="product-price">Rp 3.500.000</del>
+              </div>
+            </div>
+          </div>
+          <!-- card design end -->
+           </div>
+          <div class="shdowmore-btn">
+            <button class="showmore-btn">Show More</>
+          </div>
+      </section>
+      <!-- Related Product Section End -->
+    </main>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-brand">
+            <img class="logo-image" src="/images/brand.png" alt="Brand image" />
+            <a class="brand-name" href="#home">Furnio</a>
+           
+          </div>
+          <div class="links-container">
+            <div class="link-group">
+              <h3>Link</h3>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Shop</a></li>
+                <li><a href="#services">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="link-group">
+              <h3>Help</h3>
+              <ul>
+                <li><a href="#">Payement Option</a></li>
+                <li><a href="#">Return</a></li>
+                <li><a href="#">Privacy Policies</a></li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <h3>Newsletter</h3>
+            <div>
+              <input type="email" placeholder="Enter your email" />
+              <button class="subscribe-btn">Subscribe</button>
+            </div>
+          </div>
+  
+        </div>
+        <hr>
+        <p>@2024 furino. All rights reverved</p>
+      </footer>
+  
+  </body>
+</html>
